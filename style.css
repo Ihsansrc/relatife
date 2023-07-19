@@ -5,3 +5,13 @@ body {
 section {
   padding-top: 3.5rem;
 }
+
+.container-fluid .navbar-brand {
+  font-family: "VT323", monospace, sans-serif;
+  font-size: 25px;
+  padding: 0;
+}
+
+.card h5 {
+  margin-top: 6em;
+}
