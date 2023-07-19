@@ -1,50 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  line-height: 1.8em;
-  font-family: sans-serif;
-}
-
-header {
-  background-color: #ccc;
-  background-image: url(/gambar/nft.jpg);
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-}
-
-h1 {
-  font-family: sans-serif;
-  color: white;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
-  /* font-size: 4rem; */
-  font-size: 4vmax;
-  text-align: center;
-  line-height: 1.2em;
-  margin: auto;
+  height: 1000vh;
 }
 
 section {
-  width: 80%;
-  margin: 30px auto;
-}
-
-.detail {
-  text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  font-size: 1.4rem;
-  padding: 0.5em 0;
-  margin-bottom: 2em;
-  color: #333;
-}
-
-section p {
-  font-size: 1.2em;
-  margin-bottom: 1em;
-  text-indent: 1em;
+  padding-top: 3.5rem;
 }
