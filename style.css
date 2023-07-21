@@ -27,17 +27,55 @@ section {
 
 .hero .kiri {
   margin: 80px 0 0 40px;
+  max-width: 40%;
+}
+
+.hero .kiri h1 {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 65px;
 }
 
 .hero .kiri h1 span {
   font-family: "VT323", monospace, sans-serif;
   font-size: 1.5em;
   color: white;
-  text-shadow: 0px 0px 15px rebeccapurple;
+}
+
+.hero .kiri p {
+  max-width: 90%;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.hero .kiri p span {
+  font-weight: 500;
+}
+
+.hero .kanan {
+  max-width: 60%;
 }
 
 .hero .kanan img {
   max-height: 100vh;
+  max-width: 100%;
+}
+
+.btn-wa {
+  background-color: #7c9d96;
+  font-size: 1.3em;
+  text-align: center;
+  max-height: 4em;
+  max-width: 4em;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.btn-wa a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
 }
 
 /* ukuran tablet */
