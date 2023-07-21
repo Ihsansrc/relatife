@@ -12,6 +12,38 @@ section {
   padding: 0;
 }
 
+.row .col .card {
+  box-shadow: -3px 5px 15px rgba(65, 65, 65, 0.4);
+  border: 3px solid;
+}
+
 .card h5 {
-  margin-top: 6em;
+  margin-top: 7.5em;
+}
+
+.pembungkus {
+  justify-content: space-between;
+}
+
+.hero .kiri {
+  margin: 80px 0 0 40px;
+}
+
+.hero .kiri h1 span {
+  font-family: "VT323", monospace, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 0px 0px 15px rebeccapurple;
+}
+
+.hero .kanan img {
+  max-height: 100vh;
+}
+
+/* ukuran tablet */
+
+@media screen and (max-width: 723px) {
+  .card h5 {
+    color: black;
+  }
 }
