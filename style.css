@@ -21,8 +21,8 @@ section {
   margin-top: 7.5em;
 }
 
-.pembungkus {
-  justify-content: space-between;
+section .pembungkus {
+  overflow: hidden;
 }
 
 .hero .kiri {
@@ -61,14 +61,19 @@ section {
   max-width: 100%;
 }
 
-.btn-wa {
+.btn-wa a {
   background-color: #7c9d96;
   font-size: 1.3em;
   text-align: center;
-  max-height: 4em;
-  max-width: 4em;
+  width: 6em;
   border-radius: 10px;
   margin-top: 20px;
+  display: inline-block;
+}
+
+.btn-wa a:hover {
+  background-color: white;
+  color: #7c9d96;
 }
 
 .btn-wa a {
@@ -76,6 +81,12 @@ section {
   font-family: sans-serif;
   font-weight: 700;
   color: white;
+}
+
+.container .judul h1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #4a5e5a;
 }
 
 /* ukuran tablet */
