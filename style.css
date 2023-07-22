@@ -104,6 +104,14 @@ section .pembungkus {
   width: 15em;
 }
 
+.cara-satu h1 {
+  color: #4a5e5a;
+}
+
+.cara-satu ol li {
+  font-size: 20px;
+}
+
 /* ukuran tablet */
 
 @media screen and (max-width: 723px) {
