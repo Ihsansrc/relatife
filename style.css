@@ -89,6 +89,21 @@ section .pembungkus {
   color: #4a5e5a;
 }
 
+.testi h1 {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #4a5e5a;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 15em;
+}
+
 /* ukuran tablet */
 
 @media screen and (max-width: 723px) {
