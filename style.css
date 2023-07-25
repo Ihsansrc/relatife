@@ -178,7 +178,7 @@ section .pembungkus {
     position: relative;
   }
   .pembungkus .kanan {
-    background-image: url(/gambar/tablet.png);
+    background-image: url(/relatife/gambar/tablet.png);
     max-width: 100vh;
     margin-top: -450px;
     background-repeat: no-repeat;
