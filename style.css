@@ -170,3 +170,52 @@ section .pembungkus {
     width: 100%;
   }
 }
+
+/* mobile */
+@media screen and (max-width: 576px) {
+  .pembungkus {
+    max-width: 100vh;
+    position: relative;
+  }
+  .pembungkus .kanan {
+    background-image: url(/gambar/tablet.png);
+    max-width: 100vh;
+    margin-top: -450px;
+    background-repeat: no-repeat;
+  }
+  .hero .kiri {
+    min-width: 100%;
+    max-height: 55%;
+    margin-right: 30px;
+    position: relative;
+  }
+  .hero .kiri h1 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: -50px;
+  }
+  .hero .kiri p {
+    font-size: 20px;
+  }
+  .hero .kiri .btn-wa {
+    font-size: 17px;
+  }
+  .card h5 {
+    margin-top: 6em;
+  }
+  .gm h5 {
+    width: 100%;
+  }
+  #rank {
+    margin-top: -300px;
+  }
+  .carousel-item img {
+    width: 7em;
+  }
+  .slide button {
+    margin-top: 60px;
+  }
+  .pesen .cara-dua img {
+    max-width: 32em;
+  }
+}
