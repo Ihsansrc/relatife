@@ -30,6 +30,7 @@ section .pembungkus {
   font-weight: 700;
   font-size: 3em;
   line-height: 65px;
+  color: #4a5e5a;
 }
 
 .hero .kiri h1 span {
@@ -124,10 +125,44 @@ section .pembungkus {
   margin-bottom: 0;
 }
 
-/* ukuran tablet */
-
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 768px) {
+  .pembungkus .kanan img {
+    display: none;
+  }
+  .pembungkus .kanan {
+    background-image: url(/gambar/tablet.png);
+    max-width: 100vh;
+    margin-top: -250px;
+    background-repeat: no-repeat;
+  }
+  .pesen .cara-dua {
+    display: none;
+  }
+  .tatacara .cara-tiga img {
+    display: none;
+  }
+  .hero .kiri {
+    min-width: 100%;
+    max-height: 40%;
+  }
+  .hero .kiri h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .hero .kiri p {
+    font-size: 25px;
+  }
+  .hero .kiri .btn-wa {
+    font-size: 20px;
+  }
   .card h5 {
-    color: black;
+    margin-top: 3em;
+  }
+  .gm h5 {
+    margin-top: 2.5em;
+    width: 90px;
+  }
+  .glo h5 {
+    margin-top: 2.5em;
   }
 }
